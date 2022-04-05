@@ -1,3 +1,4 @@
+#beautifulsoup4 4.10.0 - https://pypi.org/project/beautifulsoup4/
 import requests
 from bs4 import BeautifulSoup
 

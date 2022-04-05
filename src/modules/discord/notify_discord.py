@@ -1,3 +1,4 @@
+#discordwebhook 1.0.3 - https://pypi.org/project/discordwebhook/
 from discordwebhook import Discord
 
 base_url = "https://discord.com/api/webhooks/"
