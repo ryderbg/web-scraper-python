@@ -1,11 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
-
-category = '/laptopi-i-computri/mrejovi/routers/?marka='
-brand = 'asus'
-
 def get_ozone(category, brand):
   base_url = 'https://ozone.bg'
   url = base_url+category+brand
@@ -21,9 +16,7 @@ def get_ozone(category, brand):
           "title": title.strip(),
           "price": price.strip()
       }
-      # print(title)
   
       top_items.append(info)
   return top_items
-print(get_ozone(category, brand))
 
