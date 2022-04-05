@@ -11,8 +11,7 @@ page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
 
 top_items = []
-products = soup.select('div.products-list')
-print(products)
+products = soup.select('span.title-option-wrapper')
 
 #WIP
 for product in products:
