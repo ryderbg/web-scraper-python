@@ -6,4 +6,4 @@ brand = 'asus'
 
 products = get_ozone(category, brand)
 to_csv(products)
-# print(price_trigger(products))
+print(price_trigger(products))
