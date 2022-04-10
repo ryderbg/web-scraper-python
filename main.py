@@ -1,3 +1,4 @@
+from src.products.find_product import find_product
 from src.modules.csv.to_csv import to_csv
 from src.products.getters.ozone import *
 from src.products.price_trigger import *
@@ -6,4 +7,5 @@ brand = 'asus'
 
 products = get_ozone(category, brand)
 to_csv(products)
-print(price_trigger(products))
+find_product(products, 'AX')
+# print(price_trigger(products))
